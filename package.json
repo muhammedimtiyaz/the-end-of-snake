@@ -1,0 +1,30 @@
+{
+  "name": "the-end-of-snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode=development -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedimtiyaz/the-end-of-snake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammedimtiyaz/the-end-of-snake/issues"
+  },
+  "homepage": "https://github.com/muhammedimtiyaz/the-end-of-snake#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "rainbowvis.js": "^1.0.1",
+    "tinycolor2": "^1.4.1",
+    "webpack": "^4.29.2",
+    "webpack-cli": "^3.2.3"
+  }
+}

@@ -12,6 +12,7 @@ This game was inspired by Sean Chowdhury’s [Hawk and the Minnow project](https
 
 ### Architecture and Technology
 
+![wireframe](/app/assets/images/wireframe.png)
 
 
 The game is built with the following technologies:
