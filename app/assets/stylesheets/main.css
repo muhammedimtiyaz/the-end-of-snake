@@ -1,22 +1,37 @@
-/* font-family: 'Permanent Marker', cursive;
+/* /* font-family: 'Permanent Marker', cursive;
 font-family: 'Merienda', cursive; */
 
-body {
+/* body {
   background-color: #363237;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.canvas {
+main {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  width: 90%;
+  height: 70%;
+}
+
+canvas {
   width: 100%;
-  /* height: 70%; */
+  height: 70%;
   margin: 8% 8%;
   background-color: #2D4262;
   border: 1px solid rgb(35, 53, 79);
   border-radius: 5px;
-  -webkit-box-shadow: 3px 3px 7px 6px rgb(14, 23, 34);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 7px 6px rgb(14, 23, 34);  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 7px 6px rgb(14, 23, 34); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 3px 3px 7px 6px rgb(14, 23, 34);  
+  -moz-box-shadow:    3px 3px 7px 6px rgb(14, 23, 34);  
+  box-shadow:         3px 3px 7px 6px rgb(14, 23, 34);
+}
+
+canvas {
+  margin: 120px auto;
 }
 
 .content {
@@ -38,11 +53,127 @@ body {
 .sub-header {
   position: absolute;
   top: 0;
-  left: calc(50% - 171.5px);
+  left: calc(50% - 170px);
   height: 100px;
   width: auto;
   display: none;
 }
 
+.start-button {
+  position: absolute;
+  margin: 400px calc(50% - 76px);
+  z-index: 1;
+  border-style: solid;
+  border-color: black;
+  background: none;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px 30px;
+  color: black;
+  font-size: 20px;
+  text-shadow: 1px 1px white;
+}
+
+.start-button button {
+  background-color: none;
+}
+
+#sound {
+  position: absolute;
+  height: 20px;
+  width: auto;
+  margin: 140px 82%;
+}
+
+.footer-links {
+  z-index: 1;
+  margin: -85px auto 0 auto;
+  display: flex;
+}
+
+.footer-links i {
+  height: 30px;
+  width: auto;
+}
+
+.footer-links i:hover {
+  height: 32px;
+  width: auto;
+}
+ */
+
+ body {
+  background-color: #E8E9F3;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.header {
+  position: absolute;
+  left: 375px;
+  top: 200px;
+  opacity: 1;
+  font-family: 'Merienda', cursive;
+}
+
+.sub-header {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 171.5px);
+  height: 100px;
+  width: auto;
+  display: block;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.start-button {
+  position: absolute;
+  margin: 400px calc(50% - 76px);
+  z-index: 1;
+  border-style: solid;
+  border-color: black;
+  background: none;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px 30px;
+  color: black;
+  font-size: 20px;
+  text-shadow: 1px 1px white;
+}
+
+.start-button button {
+  background-color: none;
+}
 
 
+#sound {
+  position: absolute;
+  height: 20px;
+  width: auto;
+  margin: 140px 82%;
+}
+
+.canvas {
+  margin: 120px auto;
+  background-color: rgb(111, 93, 93);
+}
+
+.footer-links {
+  z-index: 1;
+  margin: -85px auto 0 auto;
+  display: flex;
+}
+
+.footer-links i {
+  height: 30px;
+  width: auto;
+}
+
+.footer-links i:hover {
+  height: 32px;
+  width: auto;
+}
