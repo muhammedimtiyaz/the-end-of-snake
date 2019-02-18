@@ -140,7 +140,7 @@ main {
   background: none;
   font-family: 'Merienda', cursive;
   padding: 10px 30px;
-  color: black;
+  color: rgb(179, 179, 179);
   font-size: 20px;
   text-shadow: 1px 1px white;
 }

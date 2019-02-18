@@ -3,6 +3,8 @@
 The End of Snake is a puzzle platformer built with Vanilla JavaScript and Canvas.
 This game was inspired by Sean Chowdhury’s [Hawk and the Minnow project](https://github.com/seanchowdhury/hawk-and-the-minnow).
 
+[Play it here!](http://muhammed-imtiyaz.com/the-end-of-snake/)
+
 ### Functionality and MVP:
 - [ ] User should be able to move left, right and jump,
 - [ ] User should be able to toggle sound,

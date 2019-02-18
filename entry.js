@@ -1,7 +1,7 @@
 import { game, splashAudio, completeAudio, deathAudio } from './lib/game';
 
 const Veridis_Quo = new Audio('app/assets/audio/Daft_Punk_Veridis_Quo.mp3');
-Veridis_Quo.volume = 0.5;
+Veridis_Quo.volume = 0.4;
 if (typeof Veridis_Quo.loop == 'boolean')
 {
   Veridis_Quo.loop = true;
@@ -15,7 +15,7 @@ else
 }
 
 const background = new Image();
-background.src = "app/assets/images/night-sky-stellar-network.png";
+background.src = "app/assets/images/wireframe.png";
 
 document.addEventListener("DOMContentLoaded", () => {
   const canvas = document.getElementById("canvas");
