@@ -1,7 +1,7 @@
 import { game, splashAudio, completeAudio, deathAudio } from './lib/game';
 
 const Veridis_Quo = new Audio('app/assets/audio/Daft_Punk_Veridis_Quo.mp3');
-Veridis_Quo.volume = 0.4;
+Veridis_Quo.volume = 0.3;
 if (typeof Veridis_Quo.loop == 'boolean')
 {
   Veridis_Quo.loop = true;
@@ -15,12 +15,12 @@ else
 }
 
 const background = new Image();
-background.src = "app/assets/images/wireframe.png";
+background.src = "app/assets/images/starry-sky.jpg";
 
 document.addEventListener("DOMContentLoaded", () => {
   const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
-  background.onload = () => { ctx.drawImage(background, 0, 0); };
+  background.onload = () => { ctx.drawImage(background, 0, 0, canvas.width, canvas.height); };
 
 
     document.getElementById('sound').addEventListener('click', (e) => {
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const fade = (el) => {
   let op = 1;
-  let fader = 0.006;
+  let fader = 0.008;
   const timer = setInterval(() => {
       if (op <= 0.1){
           clearInterval(timer);
