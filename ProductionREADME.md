@@ -1,7 +1,6 @@
 # The End of Snake
 
 The End of Snake is a puzzle platformer built with Vanilla JavaScript and Canvas.
-This game was inspired by Sean Chowdhury’s [Hawk and the Minnow project](https://github.com/seanchowdhury/hawk-and-the-minnow).
 
 [Play it here!](http://muhammed-imtiyaz.com/the-end-of-snake/)
 
@@ -30,14 +29,3 @@ The game follows OOP and will be broken down into few major scripts:
 - `level.js` to deal with different levels of the game and the architecture of the obstacle course,
 - `platform.js` and `exit.js` to organise other features.
 
-### Implementation Timeline:
-
-- [ ] Day1:  Setup all necessary Node modules, including getting webpack up and running. Create webpack.config.js as well as package.json. Write a basic entry file and the bare bones of all scripts outlined above.
-
-- [ ] Day2: Work on object collision physics, player object and obstacle course creation.
-
-- [ ] Day 3: Incorporate sound and background visual. Install the controls for the user to interact with the game. Style the frontend.
-
-Over the Weekend:
- - [ ] Test project for bugs
- - [ ] Deploy project on Github Pages
