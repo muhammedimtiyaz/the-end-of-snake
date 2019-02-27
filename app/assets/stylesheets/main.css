@@ -164,6 +164,7 @@ main {
 }
 
 .footer-links {
+  font-family: sans-serif;
   z-index: 1;
   margin: -85px auto 0 auto;
   display: flex;
