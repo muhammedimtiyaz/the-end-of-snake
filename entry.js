@@ -29,14 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
         deathAudio.muted = false;
         completeAudio.muted = false;
         Veridis_Quo.muted = false;
-        e.target.src = "app/assets/images/Icons8-Windows-8-Media-Controls-Volume-Up.ico";
+        e.target.src = "app/assets/images/volume-up-4-256.ico";
       }
       else {
         splashAudio.muted = true;
         deathAudio.muted = true;
         completeAudio.muted = true;
         Veridis_Quo.muted = true;
-        e.target.src = "app/assets/images/Icons8-Windows-8-Media-Controls-Mute.ico";
+        e.target.src = "app/assets/images/mute-3-256.ico";
       }
   });
 
