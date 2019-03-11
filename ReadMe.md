@@ -86,6 +86,6 @@ The game follows OOP and will be broken down into few major scripts:
 ```
 
 ### Portfolio and Contact
-[Linkedin](https://www.linkedin.com/in/muhammed-imtiyaz)
-[Angel List](https://angel.co/muhammed-imtiyaz)
-[Portfolio](http://muhammed-imtiyaz.com)
+- [Linkedin](https://www.linkedin.com/in/muhammed-imtiyaz)
+- [Angel List](https://angel.co/muhammed-imtiyaz)
+- [Portfolio](http://muhammed-imtiyaz.com)
