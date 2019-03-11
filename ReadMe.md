@@ -6,8 +6,6 @@ The End of Snake is a puzzle platformer built with Vanilla JavaScript and Canvas
 
 ### Architecture and Technology
 
-![wireframe](/app/assets/images/wireframe.png)
-
 The game is built with the following technologies:
 
 - `JavaScript` for handling movement and platform logic,
